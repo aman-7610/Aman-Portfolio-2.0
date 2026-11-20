@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projects and coding practice by Aman Jha.">
+  <title>Projects | Aman Jha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><script>try{document.documentElement.dataset.theme=localStorage.getItem('aman-theme')||'light'}catch(e){}</script><script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header"><nav class="nav container" aria-label="Main navigation"><a class="brand" href="index.html">AMAN<span>.</span></a><button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><div class="nav-links" id="nav-links"><a href="index.html">Home</a><a class="active" href="projects.html">Projects</a><a href="contact.html">Contact</a><a class="nav-resume" href="assets/resume.pdf" target="_blank" rel="noopener">Resume ↗</a><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch theme">☾</button></div></nav></header>
+<main>
+  <section class="page-hero container section"><p class="eyebrow">SELECTED WORK & PRACTICE</p><h1>Projects<span class="gradient-text">.</span></h1><p class="lead">A collection of my public GitHub repositories and ideas I’m working towards. This page updates from my GitHub profile.</p></section>
+  <section class="section container">
+    <div class="project-toolbar"><div><p class="eyebrow">GITHUB REPOSITORIES</p><h2>My repositories</h2></div><a class="text-link" href="https://github.com/aman-7610" target="_blank" rel="noopener">View GitHub ↗</a></div>
+    <div class="filter-row" id="project-filters"><button class="filter-button active" data-filter="all">All</button><button class="filter-button" data-filter="HTML">HTML</button><button class="filter-button" data-filter="CSS">CSS</button><button class="filter-button" data-filter="JavaScript">JavaScript</button><button class="filter-button" data-filter="C++">C++</button></div>
+    <p id="project-status" class="muted status-message" aria-live="polite">Loading repositories from GitHub…</p>
+    <div class="projects-grid" id="project-grid"></div>
+  </section>
+  <section class="section soft-section"><div class="container"><div class="section-heading"><p class="eyebrow">PRACTICE ROADMAP</p><h2>Ideas to build next</h2><p class="muted">These are learning ideas, not completed projects.</p></div><div class="ideas-grid">
+    <article class="idea-card"><span>01 / WEB</span><h3>Interactive calculator</h3><p>Practise JavaScript events, input handling and basic calculations.</p></article>
+    <article class="idea-card"><span>02 / C++</span><h3>C++ practice collection</h3><p>Organise beginner exercises on loops, conditions, functions and arrays.</p></article>
+    <article class="idea-card"><span>03 / WEB</span><h3>To-do list</h3><p>Explore DOM manipulation and saving simple tasks in the browser.</p></article>
+  </div></div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html">AMAN<span>.</span></a><p>Designed and built by Aman Jha · <span id="year"></span></p><a href="contact.html">Let's connect ↗</a></div></footer><button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+</body></html>
